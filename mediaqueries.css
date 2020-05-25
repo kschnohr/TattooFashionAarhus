@@ -1,0 +1,196 @@
+@media (max-width: 450px) {
+
+  
+    .logo {
+        grid-row: 2;
+
+    }
+    #logo {
+        width: 45vw;
+        
+    }
+    .down {
+        width:20vw;
+    }
+    .menu_bar {
+        width: 100vw;
+  
+
+    }
+
+    .burger_menu {
+        grid-row: 1;
+        width: 10vw;
+        left: 80vw;
+        padding-top: 3vh;
+    }
+    .menu_content {
+        width: 50vw;
+    }
+    h1 {
+        text-align: center;
+    }
+    .john, .marie, .luna {
+        width: 33.3vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .meet_john::after {
+        background-image: url("img/john_full.jpg");
+    }
+    .meet_marie::after {
+        background-image: url("img/marie.jpg");
+    }
+    .meet_luna::after {
+        background-image: url("img/luna.jpg");
+    }
+
+    .meet_john, .meet_marie, .meet_luna {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #john_start, #marie_start, #luna_start {
+        padding-top: 0;
+        grid-row:1;
+
+    }
+
+    .quote_john, .quote_marie, .quote_luna{
+        grid-row: 2;
+        margin:0;
+        grid-column: 2/5;
+    }
+
+    .about_john, .about_marie, .about_luna{
+        grid-row:3;
+        grid-column: 1/7;
+        margin: 0 2vw 0 2vw;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #john_gallery_start, #marie_gallery_start, #luna_gallery_start {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .galleries {
+        width: 100vw;
+        height:100vh;
+    }
+
+    .john_gallery_pics {
+        width: 35vw;
+        margin:auto;
+    }
+
+    .gallery_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .john_gallery, .marie_gallery, .luna_gallery {
+        grid-template-columns: 15vw 1fr 1fr 1fr 15vw;
+    }
+
+    .close {
+        width: 5vw;
+        height: 5vw;
+    }
+
+}
+
+@media (max-width:800px) {
+    .logo {
+        grid-row: 2;
+
+    }
+    #logo {
+        width: 30vw;
+        
+    }
+    .down {
+        width:10vw;
+    }
+
+    .burger_menu {
+        grid-row: 1;
+        width: 7vw;
+        left: 85vw;
+        padding-top: 3vh;
+    }
+    h1 {
+        text-align: center;
+    }
+
+    .menu_content {
+        width: 50vw;
+    }
+
+    .john, .marie, .luna {
+        width: 33.3vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .meet_john::after {
+        background-image: url("img/john.jpg");
+    }
+    .meet_marie::after {
+        background-image: url("img/marie.jpg");
+    }
+    .meet_luna::after {
+        background-image: url("img/luna.jpg");
+    }
+
+    .meet_john, .meet_marie, .meet_luna {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #john_start, #marie_start, #luna_start {
+        padding-top: 0;
+        grid-row:1;
+
+    }
+
+    .quote_john, .quote_marie, .quote_luna{
+        grid-row: 2;
+        margin:0;
+        grid-column: 2/5;
+    }
+
+    .about_john, .about_marie, .about_luna{
+        grid-row:3;
+        grid-column: 1/7;
+        margin: 0 2vw 0 2vw;
+       font-weight: bolder;
+        text-align: center;
+    }
+
+    #john_gallery_start, #marie_gallery_start, #luna_gallery_start {
+        
+        text-align: center;
+    }
+
+    .galleries {
+        width: 100vw;
+        height:100vh;
+    }
+
+    .john_gallery_pics, .marie_gallery_pics, .luna_gallery_pics {
+        width: 35vw;
+        margin:auto;
+    }
+
+    .gallery_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .john_gallery, .marie_gallery, .luna_gallery {
+        grid-template-columns: 15vw 1fr 1fr 1fr 15vw;
+    }
+
+    
+}
