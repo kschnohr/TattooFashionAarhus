@@ -1,4 +1,4 @@
-
+/*Link som jeg har brugt til inspiration: https://www.tutorialspoint.com/how-to-create-a-tabbed-image-gallery-with-css-and-javascript */
 /*modal box with multiple triggers*/
 
 var triggerJohn = document.querySelectorAll(".john_gallery_pics");
@@ -66,6 +66,8 @@ function toggleActiveJohn (){
 toggleActiveJohn();
 toggleActiveMarie();
 toggleActiveLuna();
+
+
 /*Background on menu when scrolling*/
 
 var menu = document.querySelector(".menu_bar");
@@ -102,161 +104,3 @@ closeMenu.addEventListener("click", function(){
 });
 
 
-/*slide menu*//*
-
-var burger = document.querySelector(".burger_menu");
-var activeMenu = document.querySelector(".menu_content");
-var closeMenu = document.querySelector(".close_menu");
-
-
-burger.addEventListener("click", function(){
-    console.log("da burger is clicked");
-    activeMenu.style.opacity ="1";
-});
-
-
-
-closeMenu.addEventListener("click", function(){
-    activeMenu.style.opacity ="0";
-});
-
-
-
-
-
-
-
-
-*/
-
-
-
-
-/*    var num = 1;
-    var next = document.querySelector(".next");
-    var prev = document.querySelector(".prev"); 
-    var currentSlide = focus[num].src;
-
-    next.addEventListener('click', galleryNext);
-    prev.addEventListener('click', galleryPrevious);
-function showSlide (num){
-    if (currentSlide = 1){
-         
-    }
-}
-    function galleryNext(){
-        console.log("next is pressed")
-        num = num + 1;
-        if (num == 10){
-                num = 1;
-            }
-        };
-    
-
-function galleryPrevious(){
-    console.log("prev is pressed");
-    num = num-1;
-    
-    if (num == 0){
-        num = 3;
-    }
-    };
-
-
-
-galleryNext();
-galleryPrevious();
-showSlide(num);
-}; 
-
-
-
-
-næste og forrige slides
-
-
-function showSlide (){
-    
-}
-    function galleryNext(){
-        console.log("next is pressed")
-        num = num + 1;
-        if (num == 10){
-                num = 1;
-            }
-        };
-    
-
-function galleryPrevious(){
-    console.log("prev is pressed");
-    num = num-1;
-    
-    if (num == 0){
-        num = 3;
-    }
-    };
-
-
-function showSlide (){
-    currentSlide + 1
-}
-
-galleryNext();
-galleryPrevious();
-showSlide();
-};
-
-toggleActive();
-
-closeModal.addEventListener("click", function (){
-    container.classList.remove("modal_active")
-});
-
-
-
-
-
-
-
-slideshow baseret på array
-
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function prevSlides(n) {
-    showSlides(slideIndex -= n);
-  }
-
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var trigger = document.getElementsByClassName("trigger");
-
-  if (n >trigger.length) {
-      slideIndex = 1
-    } 
-
-  if (n < 1) {
-      slideIndex = trigger.length
-    }
-  for (i = 0; i < trigger.length; i++) {
-      trigger[i].style.display = "none"; 
-  }
-
-  trigger[slideIndex-1].style.display = "block"; 
-  
-};
-
-
-
-*/
